@@ -1,5 +1,5 @@
 const apiKey = '18033db1c1a2f7b502c51fe9124f09ed';
-const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${'Johannesburg'}`;
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat={26.2}&lon={28.04}&appid={863242cfb2b1d357e6093d9a4df19a4b}'
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/'; // crossorigin.me proxy
 
 fetch(proxyUrl + apiUrl)
