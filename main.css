@@ -1,0 +1,78 @@
+@media  screen and (min-width:1000px) {
+    .container {
+        position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);
+        background-color: aqua;border-radius: 10px;height:60%;width:40%;
+    }
+    .Location {
+        font-size: 250%;position: relative;left:10%;
+    }
+    .Temperature {
+        display: inline;position: relative;left:20%
+    }
+    .Icon {
+        display: inline;font-size: x-large;position: absolute;top:0%;right:5%
+    }
+    .Tomorrow {
+        position: absolute;left:5%;top:60%;
+    }
+    .date {
+        position: relative;left:10%;
+    }
+}
+@media  screen and (min-width:600px) and (max-width:999px) {
+    .container {
+        position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);
+        background-color: aqua;border-radius: 10px;height:60%;width:40%;font-size: 80%;
+    }
+    .Location {
+        font-size: 200%;position: relative;left:25%;
+    }
+    .Temperature {
+        display: inline;position: relative;left:40%;
+    }
+    .Icon {
+        display: inline;font-size: large;position: absolute;
+        top:60%;left: 50%;transform: translate(-50%, -50%);
+    }
+    .Tomorrow {
+        position: absolute;left:5%;top:55%;display:none;
+    }
+    .date {
+        position: relative;left:20%;display: inline;
+    }
+    .date > div img {
+        height: 500px;vertical-align: middle;margin-bottom:-10%;width:200px
+    }
+    .Icon > div span {
+        position: relative;text-align: center;
+    }
+}
+@media  screen and (max-width:599px) {
+    .container {
+        position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);
+        background-color: aqua;border-radius: 10px;height:400px;width:250px;
+        font-size: 80%;
+    }
+    .Location {
+        font-size: 180%;position: relative;left:25%;
+    }
+    .Temperature {
+        display: inline;position: relative;left:10%;
+    }
+    .Icon {
+        display: inline;font-size: large;position: absolute;
+        top:60%;left: 50%;transform: translate(-50%, -50%);
+    }
+    .Tomorrow {
+        position: absolute;left:5%;top:55%;display: none;
+    }
+    .date {
+        position: relative;left:20%;
+    }
+    .date > div img {
+        height: 500px;vertical-align: middle;margin-bottom:-10%;width:200px
+    }
+    .Icon > div span {
+        position: relative;text-align: center;display: block;
+    }
+}

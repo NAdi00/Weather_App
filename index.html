@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="Location" id="location1">Cape Town</h1>
+        <h2 class="date">Today: Date</h2>
+        <h2 class="Temperature"><span id="temp">22 <sup>o</sup>C</span> </h2>
+        <div class="Icon">
+            <div><img src="./weather-app-img/images/clear.png"
+                 alt="weather_pic"></div>
+            <div><span>humidity: {} </span><span> precipitaion: {}</span></div>
+        </div>
+        <br><br><br><br>
+        <div class="Tomorrow">
+            <h3>Tomorrow</h3>
+            <div style="display:flex;align-items: center;">
+            <span id="temp_t">18 <sup style="display: inline;font-size: 120%;">o</sup>C </span> <img src="./weather-app-img/images/clear.png"
+                alt="weather_pic_tomorrow" style="display: inline;height:25%;width:25%" >
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
