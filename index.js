@@ -1,6 +1,3 @@
-"API Key from weatherbit : 6c82c05406804ea1bfde9ef382fb63e0"
-
-// Weatherbit API key - Sign up on Weatherbit (https://www.weatherbit.io/) to get your API key
 const apiKey = '18033db1c1a2f7b502c51fe9124f09ed';
 
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?lat=40.7&lon=-74&appid=18033db1c1a2f7b502c51fe9124f09ed&units=impericals";
