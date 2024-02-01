@@ -11,7 +11,7 @@ fetch(proxyUrl + apiUrl)
     return response.json();
   })
   .then(data => {
-    console.log(data);
+    console.log(data.weather[0]);
     // Handle the weather data here
   })
   .catch(error => {
